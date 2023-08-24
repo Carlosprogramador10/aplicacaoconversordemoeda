@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    /*background-image: url("./assets/currencyconverterwp.jpg");*/
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #070707;*/
+    background-color: #772FD3;
+}
+
+.logo {
+
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+
+
+}
+
+main {
+
+    width: 375px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+
+}
+
+
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+}
+
+button {
+    background: #772Fd3;
+    border-radius: 5px;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #5d06ce;
+}
+
+section {
+
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 327px;
+    height: 276px;
+
+
+
+
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.currency-value, .currecy-value-to-convert{
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
